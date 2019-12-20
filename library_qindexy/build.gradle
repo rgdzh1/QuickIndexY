@@ -41,6 +41,7 @@ group = "com.yey.qindexy"
 def libName = "QuickIndexY"
 //version(版本号)
 version = "0.0.1"
+
 //生成源文件
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs

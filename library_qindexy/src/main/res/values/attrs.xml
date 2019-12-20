@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QuickIndexY">
+        <!--        字体被选中时候的颜色-->
+        <attr name="qiy_text_select_color" format="reference" />
+        <!--        默认字体颜色-->
+        <attr name="qiy_text_default_color" format="reference" />
+        <!--        字体大小-->
+        <attr name="qiy_text_size" format="dimension" />
+        <!--        背景颜色-->
+        <attr name="qiy_bg_color" format="reference" />
+        <!--        背景圆角-->
+        <attr name="qiy_bg_radius" format="dimension" />
+    </declare-styleable>
+
+
+</resources>

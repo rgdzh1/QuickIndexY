@@ -1,0 +1,2 @@
+include ':app', ':library_qindexy'
+rootProject.name='QuickIndexY'

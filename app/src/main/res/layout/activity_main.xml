@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.yey.qindexy.QuickIndexY
+        android:id="@+id/qiy"
+        android:layout_width="20dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        app:qiy_bg_color="@android:color/holo_purple"
+        app:qiy_bg_radius="4dp"
+        app:qiy_text_default_color="@color/colorAccent"
+        app:qiy_text_select_color="@color/colorPrimaryDark"
+        app:qiy_text_size="6sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="更改数据源" />
+
+</LinearLayout>
